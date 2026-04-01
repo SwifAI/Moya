@@ -5,10 +5,10 @@ import PackageDescription
 let package = Package(
     name: "Moya",
     platforms: [
-        .macOS(.v15),
-        .iOS(.v18),
-        .tvOS(.v18),
-        .watchOS(.v11)
+        .macOS(.v14),
+        .iOS(.v17),
+        .tvOS(.v17),
+        .watchOS(.v10)
     ],
     products: [
         .library(name: "Moya", targets: ["Moya"]),
