@@ -1,4 +1,4 @@
-# Moya 15.1.0 (Lightweight Fork)
+# Moya 15.1.1 (Lightweight Fork)
 
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
@@ -9,7 +9,7 @@ A lightweight fork of [Moya](https://github.com/Moya/Moya) with native async/awa
 - **Added native async/await** with proper Task cancellation support
 - **Removed RxSwift & ReactiveSwift** — only Alamofire remains as a dependency
 - **Removed dev dependencies** — consumers no longer fetch Quick, Nimble, OHHTTPStubs, or Rocket
-- **Updated platforms** to iOS 18 / macOS 15 / tvOS 18 / watchOS 11
+- **Updated platforms** to iOS 17+ / macOS 14+ / tvOS 17+ / watchOS 10+
 - **Updated swift-tools-version** to 6.0
 
 ### Dependency Comparison
@@ -26,7 +26,7 @@ A lightweight fork of [Moya](https://github.com/Moya/Moya) with native async/awa
 Add to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/SwifAI/Moya.git", from: "15.1.0")
+.package(url: "https://github.com/SwifAI/Moya.git", from: "15.1.1")
 ```
 
 Or in Xcode: File → Add Package Dependencies → `https://github.com/SwifAI/Moya.git`
